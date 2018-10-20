@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails aveeto-hosting: development" uuid="7211a617-cd73-47c0-b7ee-4577f4f3971f">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="POSTGRES" exact-version="0.0" />
+      <first-sync>true</first-sync>
+      <user-name>&lt;%= ENV['RAILS_DB_USERNAME'] %&gt;</user-name>
+    </data-source>
+    <data-source name="Rails aveeto-hosting: test" uuid="6dceb2f9-b72b-4f4a-a1ed-ecd3e17bdb6c">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="POSTGRES" exact-version="0.0" />
+      <first-sync>true</first-sync>
+    </data-source>
+    <data-source name="Rails aveeto-hosting: production" uuid="4514ed68-cb95-4aaf-be2b-bdd6be46faec">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="POSTGRES" exact-version="0.0" />
+      <first-sync>true</first-sync>
+      <user-name>lideploy</user-name>
+    </data-source>
+  </component>
+</project>

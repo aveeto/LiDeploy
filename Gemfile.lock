@@ -137,7 +137,7 @@ GEM
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
     orm_adapter (0.5.0)
-    pg (0.21.0)
+    pg (0.20.0)
     public_suffix (3.0.1)
     rack (1.6.8)
     rack-test (0.6.3)
@@ -247,7 +247,7 @@ DEPENDENCIES
   mailman-rails
   mini_portile2
   nokogiri
-  pg
+  pg (= 0.20.0)
   rails (= 4.2.8)
   sass-rails (~> 5.0)
   simple_form
@@ -258,4 +258,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.14.3
+   1.16.6

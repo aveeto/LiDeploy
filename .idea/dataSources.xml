@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Rails aveeto-hosting: development" uuid="7211a617-cd73-47c0-b7ee-4577f4f3971f">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/lideploy_dev</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails aveeto-hosting: test" uuid="6dceb2f9-b72b-4f4a-a1ed-ecd3e17bdb6c">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/lideploy_test</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails aveeto-hosting: production" uuid="4514ed68-cb95-4aaf-be2b-bdd6be46faec">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/lideploy_prod</jdbc-url>
+    </data-source>
+  </component>
+</project>
