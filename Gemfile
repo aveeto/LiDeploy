@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.8'
 gem 'nokogiri'
 # Use sqlite3 as the database for Active Record
-gem 'pg'
+gem 'pg', '0.20'
 gem 'therubyracer'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
