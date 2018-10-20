@@ -45,6 +45,7 @@ group :development do
   gem 'spring'
 end
 
+gem 'puma'
 gem 'mailman-rails'
 gem 'mailman'
 gem 'daemons'
