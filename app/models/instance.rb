@@ -5,9 +5,9 @@ class Instance < ActiveRecord::Base
     if inst.temp_status.nil?
       if inst.duration == 1
         if inst.size == "512mb"
-          price = '0.01'
+          price = '6'
         elsif inst.size == '1gb'
-          price = '11'
+          price = '0.01'
         elsif inst.size == '2gb'
           price = '22'
         end
