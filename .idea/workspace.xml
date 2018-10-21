@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7d47be4-0a68-4cf2-88e9-a71726adb131" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/controllers/instances_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/instances_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/instance.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/instance.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/mailman.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/mailman.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/instances/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/instances/new.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -37,6 +35,7 @@
           <entry key="Gemfile" value="1" />
           <entry key="Procfile" value="1" />
           <entry key="coffee" value="1" />
+          <entry key="erb" value="2" />
           <entry key="js" value="1" />
           <entry key="rb" value="16" />
           <entry key="yml" value="1" />
@@ -47,6 +46,7 @@
           <entry key="CoffeeScript" value="1" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
+          <entry key="RHTML" value="2" />
           <entry key="Ruby" value="17" />
           <entry key="YAML" value="1" />
         </counts>
@@ -70,24 +70,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/instances/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+            <state relative-caret-position="238">
+              <caret line="339" column="16" lean-forward="true" selection-start-line="339" selection-start-column="16" selection-end-line="339" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/instances_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="217">
               <caret line="15" column="71" lean-forward="true" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
             </state>
           </provider>
@@ -96,7 +91,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/instance.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
+            <state relative-caret-position="358">
               <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
             </state>
           </provider>
@@ -108,11 +103,12 @@
     <findStrings>
       <find>Not found</find>
       <find>Not Found</find>
+      <find>1gb</find>
       <find>512mb</find>
       <find>'2gb'</find>
-      <find>1gb</find>
     </findStrings>
     <replaceStrings>
+      <replace>&quot;s-1vcpu-1gb&quot;</replace>
       <replace>s-1vcpu-1gb</replace>
       <replace>&quot;s-2vcpu-4gb&quot;</replace>
     </replaceStrings>
@@ -133,6 +129,7 @@
         <option value="$PROJECT_DIR$/config/initializers/mailman.rb" />
         <option value="$PROJECT_DIR$/app/controllers/instances_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/instance.rb" />
+        <option value="$PROJECT_DIR$/app/views/instances/new.html.erb" />
       </list>
     </option>
   </component>
@@ -197,6 +194,13 @@
               <item name="aveeto-hosting" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aveeto-hosting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aveeto-hosting" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="instances" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aveeto-hosting" type="b2602c69:ProjectViewProjectNode" />
@@ -359,7 +363,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5843000" />
+    <option name="totallyTimeSpent" value="6055000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="807" y="23" width="1225" height="1123" extended-state="0" />
@@ -518,23 +522,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/admin_controller.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/instance.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/instances/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        <state relative-caret-position="510">
+          <caret line="34" column="52" lean-forward="true" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/instances_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="217">
           <caret line="15" column="71" lean-forward="true" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/instance.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/instances/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="339" column="16" lean-forward="true" selection-start-line="339" selection-start-column="16" selection-end-line="339" selection-end-column="16" />
         </state>
       </provider>
     </entry>
