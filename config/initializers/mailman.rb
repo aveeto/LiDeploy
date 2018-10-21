@@ -1,6 +1,8 @@
 require Rails.root.join('app','models','instance.rb')
 Mailman.config.pop3 = {
-  server: 'poppro.zoho.com',port: 995,ssl: true,
+  server: "<%= ENV['SMTP_HOST']%>",
+  port: 995,
+  ssl: true,
   username: "<%= ENV['SMTP_USERNAME']%>",
   password: "<%= ENV['SMTP_PASSWORD']%>"
 }

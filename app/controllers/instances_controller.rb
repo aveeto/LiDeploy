@@ -10,7 +10,7 @@ class InstancesController < ApplicationController
 		createinstance.status = 'Waiting for Payment Confirmation'
 		if createinstance.save
 			#Free for 1st instance most basic plan
-			if !current_user.had_instance && createinstance.size == "512mb" && createinstance.duration == 1
+			if !current_user.had_instance && createinstance.size == "s-1vcpu-1gb" && createinstance.duration == 1
 				begin
 					current_do_key = ENV["DO_SECRET_KEY"]
 					client = DropletKit::Client.new(access_token: current_do_key)
