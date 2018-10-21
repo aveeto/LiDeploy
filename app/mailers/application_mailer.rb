@@ -1,4 +1,4 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: "LiDeploy <support@lideploy.com>"
+  default from: "Aveeto <sales@aveeto.com>"
   layout 'mailer'
 end
