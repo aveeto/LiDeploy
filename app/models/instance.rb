@@ -52,7 +52,7 @@ class Instance < ActiveRecord::Base
     end
     inst.update_attributes(price: price)
     values = {
-        business: "sales@aveeto.com",
+        business: "prismosoft@gmail.com",
         cmd: "_xclick",
         upload: 1,
         return: "#{Rails.application.secrets.app_host}/instances/",
