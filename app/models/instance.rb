@@ -50,7 +50,6 @@ class Instance < ActiveRecord::Base
     else
       month = "Months"
     end
-    price = 0
     inst.update_attributes(price: price)
     values = {
         business: "sales@aveeto.com",
