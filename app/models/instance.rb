@@ -50,16 +50,17 @@ class Instance < ActiveRecord::Base
     else
       month = "Months"
     end
+    price = 0
     inst.update_attributes(price: price)
     values = {
-        business: "support@lideploy.com",
+        business: "sales@aveeto.com",
         cmd: "_xclick",
         upload: 1,
         return: "#{Rails.application.secrets.app_host}/instances/",
-        invoice: "#{inst.name.upcase}#{inst.id}LIDEPLOY#{Time.now}",
+        invoice: "#{inst.name.upcase}#{inst.id}AVEETO#{Time.now}",
         custom: inst.size,
         amount: price,
-        item_name: "#{inst.size.upcase} Server for #{inst.duration} #{month} on Lideploy.com",
+        item_name: "#{inst.size.upcase} Server for #{inst.duration} #{month} on Aveeto.com",
         item_number: inst.id,
         quantity: '1',
         notify_url: "#{Rails.application.secrets.app_host}/hooks"
