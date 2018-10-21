@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7d47be4-0a68-4cf2-88e9-a71726adb131" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/views/instances/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/instances/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/instances/renew.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/instances/renew.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -35,7 +35,7 @@
           <entry key="Gemfile" value="1" />
           <entry key="Procfile" value="1" />
           <entry key="coffee" value="1" />
-          <entry key="erb" value="2" />
+          <entry key="erb" value="3" />
           <entry key="js" value="1" />
           <entry key="rb" value="16" />
           <entry key="yml" value="1" />
@@ -46,7 +46,7 @@
           <entry key="CoffeeScript" value="1" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="RHTML" value="2" />
+          <entry key="RHTML" value="3" />
           <entry key="Ruby" value="17" />
           <entry key="YAML" value="1" />
         </counts>
@@ -55,6 +55,7 @@
         <counts>
           <entry key="Gemfile" value="1" />
           <entry key="Procfile" value="4" />
+          <entry key="erb" value="14" />
           <entry key="rb" value="102" />
           <entry key="yml" value="14" />
         </counts>
@@ -62,6 +63,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="4" />
+          <entry key="RHTML" value="14" />
           <entry key="Ruby" value="103" />
           <entry key="YAML" value="14" />
         </counts>
@@ -70,11 +72,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/instances/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="339" column="16" lean-forward="true" selection-start-line="339" selection-start-column="16" selection-end-line="339" selection-end-column="16" />
+            <state relative-caret-position="448">
+              <caret line="353" column="45" selection-start-line="353" selection-start-column="41" selection-end-line="353" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/instances/renew.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="64" column="26" lean-forward="true" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -106,6 +117,7 @@
       <find>1gb</find>
       <find>512mb</find>
       <find>'2gb'</find>
+      <find>512</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;s-1vcpu-1gb&quot;</replace>
@@ -130,6 +142,7 @@
         <option value="$PROJECT_DIR$/app/controllers/instances_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/instance.rb" />
         <option value="$PROJECT_DIR$/app/views/instances/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/instances/renew.html.erb" />
       </list>
     </option>
   </component>
@@ -363,7 +376,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6055000" />
+    <option name="totallyTimeSpent" value="6261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="807" y="23" width="1225" height="1123" extended-state="0" />
@@ -551,8 +564,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/instances/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="339" column="16" lean-forward="true" selection-start-line="339" selection-start-column="16" selection-end-line="339" selection-end-column="16" />
+        <state relative-caret-position="448">
+          <caret line="353" column="45" selection-start-line="353" selection-start-column="41" selection-end-line="353" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/instances/renew.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="64" column="26" lean-forward="true" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="28" />
         </state>
       </provider>
     </entry>
